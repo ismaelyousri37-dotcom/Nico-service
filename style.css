@@ -1,0 +1,15 @@
+.btn-vert {
+    background-color: #5FA700;
+}
+
+.fond-gris {
+    background-color: #F5F4F4;
+}
+
+image-fond {
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
