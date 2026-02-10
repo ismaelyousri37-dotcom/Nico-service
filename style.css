@@ -7,9 +7,28 @@
 }
 
 image-fond {
-    background-image: url();
+    background-image: url(img/Oregon-Portland-Rose-Test-Garden.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+}
+
+body {
+    padding-top: 80px;
+}
+
+.hero {
+    min-height: 100vh;
+    background:
+        linear-gradient(rgba(0, 0, 0, .55), rgba(0, 0, 0, .55)),
+        url("img/Oregon-Portland-Rose-Test-Garden.webp") center/cover no-repeat;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link.active {
+    color: #2ecc71 !important;
 }
